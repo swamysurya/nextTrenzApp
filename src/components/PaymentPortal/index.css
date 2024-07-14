@@ -1,0 +1,101 @@
+.popupContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  align-self: flex-end;
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.order-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0px 0px;
+}
+
+.order-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-option-heading {
+  font-size: 24px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.items-count {
+  font-size: 18px;
+  margin: 15px 0px 5px 0px;
+  font-family: 'Roboto';
+}
+.total-price {
+  font-size: 18px;
+  line-height: 1;
+  margin: 5px 0px 15px 0px;
+  font-family: 'Roboto';
+}
+
+.order-confirmation {
+  color: #4caf50;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.payment-method-inputs {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.payment-method-input-container {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.payment-method-input {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.payment-method-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f246a;
+}
+
+.disabled-label {
+  color: #1f246a70;
+}
+
+.payments-sub-heading {
+  margin: 15px 0 15px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f246a;
+}
